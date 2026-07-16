@@ -1,0 +1,42 @@
+﻿.ptr2e.sheet.actor .skill-component fieldset.skills .ptr2e-skill-search-button,
+.ptr2e.sheet.actor .skill-component fieldset.skills .skill-search {
+  align-items: center;
+  display: flex;
+  margin: 0 0 6px;
+  position: relative;
+  width: 100%;
+}
+
+.ptr2e.sheet.actor .skill-component fieldset.skills .ptr2e-skill-search-button > i,
+.ptr2e.sheet.actor .skill-component fieldset.skills .skill-search > i {
+  color: var(--hint-text-color);
+  font-size: 0.85rem;
+  left: 8px;
+  pointer-events: none;
+  position: absolute;
+}
+
+.ptr2e.sheet.actor .skill-component fieldset.skills .ptr2e-skill-search-button__input,
+.ptr2e.sheet.actor .skill-component fieldset.skills .skill-search-input {
+  background: rgba(7, 7, 10, 0.42);
+  border: 1px solid var(--border-theme-color);
+  border-radius: 4px;
+  color: var(--appv2-text-color);
+  height: 28px;
+  line-height: 28px;
+  padding: 0 8px 0 28px;
+  width: 100%;
+}
+
+.ptr2e.sheet.actor .skill-component fieldset.skills .ptr2e-skill-search-button__input:focus,
+.ptr2e.sheet.actor .skill-component fieldset.skills .skill-search-input:focus {
+  border-color: var(--color-theme-3);
+  box-shadow: 0 0 0 1px var(--color-theme-3);
+  outline: none;
+}
+
+.ptr2e.sheet.actor .skill-component fieldset.skills .ptr2e-skill-search-button-hidden,
+.ptr2e.sheet.actor .skill-component fieldset.skills .skill-filter-hidden {
+  display: none !important;
+}
+

@@ -1,0 +1,30 @@
+{
+  "id": "ptr2e-skill-search-button",
+  "title": "PTR2e Skill Search Button",
+  "description": "Adds a live search control to PTR2e actor skill lists.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "PTR2e Module Extensions"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "ptr2e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/skill-search.css"
+  ],
+  "url": "https://github.com/Umbura/ptr2e-skill-search-button"
+}
