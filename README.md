@@ -4,6 +4,12 @@ Foundry VTT module for Pokemon Tabletop Reunited: Evolved.
 
 This module adds a live search control to PTR2e actor skill lists.
 
+## Installation
+
+Paste this manifest URL into Foundry's **Install Module** dialog:
+
+`https://raw.githubusercontent.com/Umbura/ptr2e-skill-search-button/main/module.json`
+
 ## Features
 
 - Inserts a search field above the actor skill list when the sheet renders.
