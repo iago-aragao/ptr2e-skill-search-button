@@ -10,7 +10,7 @@ This module adds a live search control to PTR2e actor skill lists.
 
 Paste this manifest URL into Foundry's **Install Module** dialog:
 
-`https://raw.githubusercontent.com/Umbura/ptr2e-skill-search-button/main/module.json`
+`https://raw.githubusercontent.com/iago-aragao/ptr2e-skill-search-button/main/module.json`
 
 ## Features
 
